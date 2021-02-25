@@ -1,0 +1,7 @@
+*.pvc
+*.swp
+*.swo
+__pycache__
+py3env
+*.sqlite3
+html files original
