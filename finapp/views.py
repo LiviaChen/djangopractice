@@ -13,7 +13,7 @@ def frontpage(request):
     income = sum(income_list) if len(income_list) != 0 else 0
     outcome = sum(outcome_list) if len(outcome_list) != 0 else 0
     net = income - outcome
-    return render(request, r'app\index.html', locals())
+    return render(request, 'app/index.html', locals())
     
 @login_required
 def settings(request):

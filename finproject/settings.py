@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 't)k-&mv$3=yqa$koazay%ek7a93-#wo&s&*m-vc+u1m=&#n(p2'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'liviac.pythonanywhere.com']
+ALLOWED_HOSTS = ['liviac.pythonanywhere.com']
 
 
 # Application definition
